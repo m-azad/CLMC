@@ -1,0 +1,18 @@
+Package: CLMC
+Title: Multiple comparisons using composite likelihood for clustered data
+Version: 0.1
+Authors@R: c(person("Mahdis", "Azadbakhsh", role = c("aut", "cre"),
+         email = "mahdis@yorku.ca"),
+	      person("Xin", "Gao", role = "aut"),
+	      person("Hanna", "Jankowski", role = "aut"))
+Authors: Mahdis Azadbakhsh [aut, cre],
+     Xin Gao [aut],
+     Hanna Jankowski [aut]
+Maintainer: Mahdis Azadbakhsh <mahdis@yorku.ca>
+Description: Multiple hypothesis testing, based on composite likelihoodinference for clustered data, with common covariance structure across the clusters. The critical value is based on multivariate normal quantile, using the R-package \code{multcomp} by Hothorn, et.al.
+Depends: R (>= 3.1.0), mvtnorm, multcomp, MASS
+License: GPL (>= 2)
+RoxygenNote: 5.0.1.9000
+
+
+
